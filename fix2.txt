@@ -88,7 +88,7 @@ git cherry-pick [SHA]
 16. Uppdatera fix2.txt och pusha till github
 
 git remote add origin https://github.com/PetterBT/laboration1.git
-git push -u origin main
+git push -u origin --all
 
 git add fix2.txt
 git commit -m "Add all commands to fix2.txt"
